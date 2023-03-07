@@ -1,7 +1,7 @@
 on:
   push:
     branches:
-      #- 'main' #TODO Uncomment out line when ready to deploy
+      - 'main'
   # Enable manual run; must be in main branch to be available
   workflow_dispatch:
 jobs:
